@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "e7554feb9ff83186",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2695e0d97036717",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74eb78917c8d5398",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "lesson1.excalidraw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a36f694454a89bcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "41881682978e1d7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6400a8ded2f642e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0817281fde96df88",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "76921f92f837c4fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b23a12fc1cae96db",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "right": {
+    "id": "6fba6d02ba16d235",
+    "type": "split",
+    "children": [
+      {
+        "id": "691a82573072e4a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99b125a33c864e04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "lesson1.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ec8e580101f8742b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "lesson1.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "04634ee9302b8675",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6f1e53933099e96d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "lesson1.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "74578a75ef42a7db",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "13dd715e01d9773a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "74eb78917c8d5398",
+  "lastOpenFiles": [
+    "resources/Pasted Image 20231125195833_134.png",
+    "resources/Pasted Image 20231119225719_856.png",
+    "lesson1.excalidraw.md",
+    "resources/Pasted Image 20231125221051_685.png",
+    "resources/Pasted Image 20231125220358_591.png",
+    "resources/Pasted Image 20231125214537_434.png",
+    "resources/Pasted Image 20231125205955_683.png",
+    "resources/Pasted Image 20231125204150_522.png",
+    "resources/Pasted Image 20231125203817_437.png",
+    "resources/Pasted Image 20231125201803_334.png",
+    "Excalidraw/Drawing 2023-11-25 14.48.43.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-18 22.15.52.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-25 15.19.13.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/GPT-Draw-a-UI.svg",
+    "Excalidraw/Scripts/Downloaded/GPT-Draw-a-UI.md",
+    "Excalidraw/Scripts/Downloaded/Slideshow.svg",
+    "Excalidraw/Scripts/Downloaded/Slideshow.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Terminology.md",
+    "resources",
+    "Excalidraw",
+    "AI/Machine Learning Specialization/MindMap.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-24 14.44.59.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-25 18.02.55.excalidraw.md",
+    "Excalidraw/Drawing 2023-11-18 20.18.22.excalidraw.md",
+    "mhy/2023b/【进行中】AssetFile.md",
+    "mhy/2023b/【进行中】FileTag.md",
+    "mhy/2023b/【进行中】远端节点自动retry机制.md",
+    "mhy/2023b/【进行中】远端节点新机器无法显示问题.md",
+    "mhy/2023b/【进行中】整理远端管线.md",
+    "mhy/2023b/【待开始】File查询接口不支持资产动画文件查询.md",
+    "mhy/2023b/【待开始】整理max中的milinesql接口.md",
+    "mhy/2023b/【待开始】管线配置KM.md",
+    "AI/Machine Learning Specialization",
+    "AI",
+    "mhy/长期追踪/【长期追踪】思考米线3.0结构框架.md",
+    "mhy/2023b/【进行中】miline基于Asset的权限.md",
+    "mhy/长期追踪",
+    "Template/Bug Template.md",
+    "Template/Task Template.md",
+    "Template/Dev Bug Template.md",
+    "Template/Template.md",
+    "Untitled.canvas",
+    "mhy/2023b/不需要",
+    "mhy/2023b/resources",
+    "mhy/2023b/已完成/resources",
+    "米哈飘数据结构.canvas",
+    "mhy/2023a/米哈飘数据结构.canvas"
+  ]
+}
