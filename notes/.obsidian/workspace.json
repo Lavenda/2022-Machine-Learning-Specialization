@@ -76,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "6fba6d02ba16d235",
@@ -170,16 +171,20 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "74eb78917c8d5398",
   "lastOpenFiles": [
+    "resources/Pasted Image 20231126225427_403.png",
+    "Excalidraw/miline3_pipe_thinking.excalidraw.md",
+    "miline3_pipe.drawio.crswap",
+    "miline3_pipe.drawio",
+    "lesson1.excalidraw.md",
     "resources/Pasted Image 20231125195833_134.png",
     "resources/Pasted Image 20231119225719_856.png",
-    "lesson1.excalidraw.md",
     "resources/Pasted Image 20231125221051_685.png",
     "resources/Pasted Image 20231125220358_591.png",
     "resources/Pasted Image 20231125214537_434.png",
@@ -192,7 +197,6 @@
     "Excalidraw/Drawing 2023-11-25 15.19.13.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/GPT-Draw-a-UI.svg",
     "Excalidraw/Scripts/Downloaded/GPT-Draw-a-UI.md",
-    "Excalidraw/Scripts/Downloaded/Slideshow.svg",
     "Excalidraw/Scripts/Downloaded/Slideshow.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
@@ -219,11 +223,8 @@
     "Template/Bug Template.md",
     "Template/Task Template.md",
     "Template/Dev Bug Template.md",
-    "Template/Template.md",
     "Untitled.canvas",
     "mhy/2023b/不需要",
-    "mhy/2023b/resources",
-    "mhy/2023b/已完成/resources",
     "米哈飘数据结构.canvas",
     "mhy/2023a/米哈飘数据结构.canvas"
   ]

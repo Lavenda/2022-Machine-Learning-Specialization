@@ -115,6 +115,12 @@ repeat util convergence, 重复到收敛
 w, b需要同步更新, 而不是更新好w立刻作为更新b的输入.
  ^F2q0HB3N
 
+如果我们把导数部分提取出来, 从其结果的正负如何影响到w和b, 就能理解梯度下降. ^dUbkEhbc
+
+why -2?
+右边的点减去左边的点.
+导数主要是通过dw/dJ(w)计算得到的. ^CSlMJxyv
+
 
 # Embedded files
 459241ea8e1099fc927ef98a2b17754fe1ead925: [[resources/Pasted Image 20231125195833_134.png]]
@@ -125,6 +131,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 12650067943434d41549f17e2f0184a32249b9ef: [[resources/Pasted Image 20231125214537_434.png]]
 465fdf1a18bfd9e1271ec8e06b01603435f6124d: [[resources/Pasted Image 20231125220358_591.png]]
 8ac4ed5bd704af915d55c1675b727ac02e4019b9: [[resources/Pasted Image 20231125221051_685.png]]
+7cdf04f5d38c4fb6eabcab34502fb6882d0e47e2: [[resources/Pasted Image 20231126225427_403.png]]
 
 %%
 # Drawing
@@ -132,7 +139,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.23",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.3",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -294,8 +301,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 777,
-			"versionNonce": 1793217129,
+			"version": 781,
+			"versionNonce": 705292182,
 			"isDeleted": false,
 			"id": "IvWsf1nJ5GO4onCOp4yBn",
 			"fillStyle": "hachure",
@@ -317,7 +324,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475222,
+			"updated": 1701010467471,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -429,8 +436,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 189,
-			"versionNonce": 899554633,
+			"version": 193,
+			"versionNonce": 517244118,
 			"isDeleted": false,
 			"id": "FBwUP0Lf1hh3VU2K3LgDV",
 			"fillStyle": "hachure",
@@ -452,7 +459,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475222,
+			"updated": 1701010467471,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -485,8 +492,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 229,
-			"versionNonce": 274566185,
+			"version": 233,
+			"versionNonce": 1926855190,
 			"isDeleted": false,
 			"id": "QjReOLRGhKsCQEPZ2f5cq",
 			"fillStyle": "hachure",
@@ -508,7 +515,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475222,
+			"updated": 1701010467471,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -625,8 +632,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 114,
-			"versionNonce": 1208076745,
+			"version": 116,
+			"versionNonce": 2048270294,
 			"isDeleted": false,
 			"id": "8tRqsb0R10cKeAZK5pQK_",
 			"fillStyle": "hachure",
@@ -648,7 +655,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475220,
+			"updated": 1701010467469,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -681,8 +688,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 140,
-			"versionNonce": 818850697,
+			"version": 142,
+			"versionNonce": 1122280022,
 			"isDeleted": false,
 			"id": "z1gryULx8-yDPQZIZfcXC",
 			"fillStyle": "hachure",
@@ -704,7 +711,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475221,
+			"updated": 1701010467470,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -863,8 +870,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 270,
-			"versionNonce": 51126025,
+			"version": 274,
+			"versionNonce": 2098054998,
 			"isDeleted": false,
 			"id": "u_CfVIZ9DPqfP4w1YyReM",
 			"fillStyle": "hachure",
@@ -886,7 +893,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475223,
+			"updated": 1701010467472,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1128,8 +1135,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 160,
-			"versionNonce": 389272201,
+			"version": 164,
+			"versionNonce": 721185878,
 			"isDeleted": false,
 			"id": "tXCND7LUCXN2-21mFnNBy",
 			"fillStyle": "hachure",
@@ -1151,7 +1158,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475224,
+			"updated": 1701010467473,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1305,8 +1312,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 161,
-			"versionNonce": 1680180297,
+			"version": 165,
+			"versionNonce": 117558998,
 			"isDeleted": false,
 			"id": "AB9ftzFa6xfLXn6_cdH_F",
 			"fillStyle": "hachure",
@@ -1328,7 +1335,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475225,
+			"updated": 1701010467474,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1361,8 +1368,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 107,
-			"versionNonce": 940218729,
+			"version": 109,
+			"versionNonce": 278426006,
 			"isDeleted": false,
 			"id": "w6mr3Zc2zsOmNZfBj7QyV",
 			"fillStyle": "hachure",
@@ -1384,7 +1391,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475224,
+			"updated": 1701010467473,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1580,8 +1587,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 127,
-			"versionNonce": 1734349609,
+			"version": 129,
+			"versionNonce": 986547222,
 			"isDeleted": false,
 			"id": "0hnN2M0kQREy0ukP2o2rn",
 			"fillStyle": "hachure",
@@ -1603,7 +1610,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475225,
+			"updated": 1701010467474,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1636,8 +1643,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 381,
-			"versionNonce": 103138825,
+			"version": 383,
+			"versionNonce": 2112917846,
 			"isDeleted": false,
 			"id": "1I5SLB_pwJ6LN-cNK43uJ",
 			"fillStyle": "hachure",
@@ -1659,7 +1666,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475226,
+			"updated": 1701010467475,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1692,8 +1699,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "arrow",
-			"version": 339,
-			"versionNonce": 1802640617,
+			"version": 343,
+			"versionNonce": 465565334,
 			"isDeleted": false,
 			"id": "qkWQWMP5DfTnCf2NM4eUY",
 			"fillStyle": "hachure",
@@ -1715,7 +1722,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1700921475226,
+			"updated": 1701010467475,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2357,8 +2364,8 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		},
 		{
 			"type": "text",
-			"version": 698,
-			"versionNonce": 1697177543,
+			"version": 701,
+			"versionNonce": 1926887690,
 			"isDeleted": false,
 			"id": "F2q0HB3N",
 			"fillStyle": "hachure",
@@ -2367,7 +2374,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -652.5881400469585,
+			"x": -657.3500448088633,
 			"y": 4358.2044090205245,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2378,7 +2385,7 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1700921205004,
+			"updated": 1701009207081,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2457,6 +2464,113 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 				1,
 				1
 			]
+		},
+		{
+			"id": "dUbkEhbc",
+			"type": "text",
+			"x": -634.6424298328745,
+			"y": 5103.944629855515,
+			"width": 738.0999755859375,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 582901066,
+			"version": 609,
+			"versionNonce": 259222410,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1701010517504,
+			"link": null,
+			"locked": false,
+			"text": "如果我们把导数部分提取出来, 从其结果的正负如何影响到w和b, 就能理解梯度下降.",
+			"rawText": "如果我们把导数部分提取出来, 从其结果的正负如何影响到w和b, 就能理解梯度下降.",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "如果我们把导数部分提取出来, 从其结果的正负如何影响到w和b, 就能理解梯度下降.",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "WU6I4DFWr0Zed8labLMHe",
+			"type": "image",
+			"x": -581.5156664009007,
+			"y": 5142.7641304678455,
+			"width": 846.6310906763133,
+			"height": 451.1803197382337,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 368987082,
+			"version": 200,
+			"versionNonce": 931196490,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1701010520492,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "7cdf04f5d38c4fb6eabcab34502fb6882d0e47e2",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "CSlMJxyv",
+			"type": "text",
+			"x": -552.6116421607338,
+			"y": 5595.187283905032,
+			"width": 210.4743118575558,
+			"height": 47.78585075751952,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1026758102,
+			"version": 256,
+			"versionNonce": 676491402,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1701010632045,
+			"link": null,
+			"locked": false,
+			"text": "why -2?\n右边的点减去左边的点.\n导数主要是通过dw/dJ(w)计算得到的.",
+			"rawText": "why -2?\n右边的点减去左边的点.\n导数主要是通过dw/dJ(w)计算得到的.",
+			"fontSize": 12.74289353533854,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 41.99999999999999,
+			"containerId": null,
+			"originalText": "why -2?\n右边的点减去左边的点.\n导数主要是通过dw/dJ(w)计算得到的.",
+			"lineHeight": 1.25
 		}
 	],
 	"appState": {
@@ -2474,10 +2588,10 @@ adc7bf209aeb9887831b5a19e30b56ade31ebd6b: [[resources/Pasted Image 2023112520595
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 7693.791408047642,
-		"scrollY": 1084.8829278207245,
+		"scrollX": 780.525093501946,
+		"scrollY": -4641.221768360634,
 		"zoom": {
-			"value": 0.2
+			"value": 1.1846602226025682
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
