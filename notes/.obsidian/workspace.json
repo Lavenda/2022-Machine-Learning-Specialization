@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e2695e0d97036717",
+        "id": "b6d10c14de82fae7",
         "type": "tabs",
         "children": [
           {
-            "id": "74eb78917c8d5398",
+            "id": "e56b8358770fae0d",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "lesson1.excalidraw.md"
+                "file": "week1.excalidraw.md"
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lesson1.excalidraw.md",
+                "file": "week1.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lesson1.excalidraw.md",
+                "file": "week1.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lesson1.excalidraw.md"
+                "file": "week1.excalidraw.md"
               }
             }
           },
@@ -176,26 +176,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "74eb78917c8d5398",
+  "active": "76921f92f837c4fc",
   "lastOpenFiles": [
-    "resources/Pasted Image 20231126225427_403.png",
+    "resources/Pasted Image 20231202160103_366.png",
+    "week1.excalidraw.md",
+    "resources/Pasted Image 20231202155048_323.png",
+    "resources/Pasted Image 20231202154948_311.png",
+    "resources/Pasted Image 20231125195833_134.png",
+    "resources/Pasted Image 20231202152250_830.png",
+    "resources/Pasted Image 20231202145239_273.png",
+    "resources/Pasted Image 20231202145211_096.png",
+    "resources/Pasted Image 20231202144725_971.png",
+    "resources/Pasted Image 20231202144605_946.png",
+    "resources/Pasted Image 20231202143431_361.png",
     "Excalidraw/miline3_pipe_thinking.excalidraw.md",
     "miline3_pipe.drawio.crswap",
     "miline3_pipe.drawio",
-    "lesson1.excalidraw.md",
-    "resources/Pasted Image 20231125195833_134.png",
-    "resources/Pasted Image 20231119225719_856.png",
-    "resources/Pasted Image 20231125221051_685.png",
-    "resources/Pasted Image 20231125220358_591.png",
-    "resources/Pasted Image 20231125214537_434.png",
-    "resources/Pasted Image 20231125205955_683.png",
-    "resources/Pasted Image 20231125204150_522.png",
-    "resources/Pasted Image 20231125203817_437.png",
-    "resources/Pasted Image 20231125201803_334.png",
     "Excalidraw/Drawing 2023-11-25 14.48.43.excalidraw.md",
     "Excalidraw/Drawing 2023-11-18 22.15.52.excalidraw.md",
     "Excalidraw/Drawing 2023-11-25 15.19.13.excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/GPT-Draw-a-UI.svg",
     "Excalidraw/Scripts/Downloaded/GPT-Draw-a-UI.md",
     "Excalidraw/Scripts/Downloaded/Slideshow.md",
     "Excalidraw/Scripts/Downloaded",
